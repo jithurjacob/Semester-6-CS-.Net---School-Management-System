@@ -1,0 +1,42 @@
+/*
+Template Name: Academic Education
+File: Portfolio CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#portfolio{
+	display:block;
+	width:100%;
+	}
+
+#portfolio ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#portfolio li{
+	display:block;
+	float:left;
+	width:430px;
+	margin:0 60px 45px 0;
+	padding:0;
+	}
+
+#portfolio li.last{
+	margin-right:0;
+	}
+
+#portfolio li img{
+	width:420px;
+	height:190px;
+	margin:0 0 15px 0;
+	padding:4px;
+	border:1px solid #DEDACB;
+	}
+
+#portfolio .readmore{
+	text-align:right;
+	}

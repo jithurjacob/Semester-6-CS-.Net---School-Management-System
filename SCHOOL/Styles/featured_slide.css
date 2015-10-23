@@ -1,0 +1,132 @@
+/*
+Template Name: Academic Education
+File: Featured Slider CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#featured_slide{
+	display:block;
+	position:relative;
+	width:950px;
+	height:300px;
+	margin:0;
+	padding:5px;
+	overflow:hidden;
+	color:#666666;
+	background-color:#FFFFFF;
+	}
+
+#featured_slide a{
+	background:transparent;
+	}
+
+#featured_slide a, #featured_slide ul, #featured_slide img{
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	list-style:none;
+	text-decoration:none;
+	}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#featured_content, .featured_box, .featured_box img{
+	display:block;
+	width:950px;
+	height:250px;
+	overflow:hidden;
+	}
+
+.featured_box, .featured_box img{
+	position:relative;
+	}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+.featured_box .floater{
+	display:block;
+	position:absolute;
+	top:25px;
+	right:25px;
+	width:290px;
+	height:140px;
+	margin:0;
+	padding:30px;
+	background-image:url("../images/featured_slide_trans.png");
+	overflow:hidden;
+	}
+
+.featured_box p{
+	margin:0;
+	padding:0;
+	line-height:1.6em;
+	}
+
+.featured_box p.readmore{text-align:right; margin:0;}
+
+/* ----------------------------------------------Tabbed Navigation-------------------------------------*/
+
+#featured_slide .ui-tabs-hide{
+	display:none;
+	}
+
+#featured_slide ul#featured_tabs{
+	display:block;
+	position:absolute;
+	bottom:5px;
+	left:5px;
+	width:949px;
+	height:50px;
+	overflow:hidden;
+	font-size:12px;
+	}
+
+#featured_slide ul#featured_tabs li{
+	/* This block makes it IE6 compatible*/
+	display:block;
+	float:left;
+	}
+
+#featured_slide ul#featured_tabs li a{
+	display:block;
+	float:left;
+	width:169px;
+	height:40px;
+	padding:10px 10px 0 10px;
+	color:#666666;
+	background-color:#DEDACB;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	border-right:1px solid #666666;
+	}
+
+#featured_slide ul#featured_tabs li.last a{
+	border-right:none;
+	}
+
+#featured_slide ul#featured_tabs li a:hover, #featured_slide ul#featured_tabs li.ui-state-active a{
+	color:#FFFFFF;
+	background-color:#333333;
+	}
+
+/* ----------------------------------------------Rounded Corners-------------------------------------*/
+
+#featured_slide .overlay_left, #featured_slide .overlay_right{
+	display:block;
+	position:absolute;
+	z-index:1000;
+	top:0;
+	left:0;
+	width:15px;
+	height:310px;
+	background-image:url("../images/featured_slide_left.png");
+	}
+
+#featured_slide .overlay_right{
+	left:945px;
+	background-image:url("../images/featured_slide_right.png");
+	}

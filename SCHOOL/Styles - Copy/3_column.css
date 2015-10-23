@@ -1,0 +1,59 @@
+/*
+Template Name: Academic Education
+File: 3 Column CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#container #content{
+	display:block;
+	float:left;
+	width:420px;
+	margin-left:30px;
+	}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#container #left_column .holder, #container #right_column .holder{
+	display:block;
+	width:100%;
+	margin-bottom:20px;
+	}
+
+#container #left_column .imgholder, #container #right_column .imgholder{
+	display:block;
+	margin-bottom:10px;
+	}
+
+#container #left_column .nostart li, #container #right_column .nostart li{
+	margin-bottom:3px;
+	}
+
+#container #left_column .last, #container #right_column .last{
+	margin-bottom:0;
+	}
+
+/* ----------------------------------------------Left Column-------------------------------------*/
+
+#container #left_column{
+	display:block;
+	float:left;
+	width:200px;
+	}
+
+#container #left_column .imgholder{
+	width:190px;
+	}
+
+/* ----------------------------------------------Right Column-------------------------------------*/
+
+#container #right_column{
+	display:block;
+	float:right;
+	width:250px;
+	}
+
+#container #right_column .imgholder{
+	width:240px;
+	}

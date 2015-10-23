@@ -1,0 +1,46 @@
+/*
+Template Name: Academic Education
+File: Gallery CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#gallery{
+	display:block;
+	width:100%;
+	line-height:1.6em;
+	}
+
+#gallery ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#gallery li{
+	display:block;
+	float:left;
+	width:168px;
+	height:168px;
+	margin:0 20px 20px 0;
+	padding:0;
+	overflow:hidden;
+	}
+
+#gallery li a img{
+	display:block;
+	width:160px;
+	height:160px;
+	margin:0;
+	padding:3px;
+	border:1px solid #DEDACB;
+	}
+
+#gallery li a:hover img{
+	border-color:#979797;
+	}
+
+#gallery li.last{
+	margin-right:0;
+	}

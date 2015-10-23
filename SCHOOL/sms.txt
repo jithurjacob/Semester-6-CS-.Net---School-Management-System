@@ -1,0 +1,3 @@
+WebClient webClient = new WebClient();
+            string content = webClient.DownloadString("http://clients.smshorizon.in/sms_api/sendsms.php?username=renjujose0555&password=traxy%40123%23&mobile=8547924342&sendername=WEBSMS&message=hi&routetype=2"
+);

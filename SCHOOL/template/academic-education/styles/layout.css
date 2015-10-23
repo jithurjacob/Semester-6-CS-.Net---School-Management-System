@@ -1,0 +1,355 @@
+/*
+Template Name: Academic Education
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+@import url(navi.css);
+@import url(forms.css);
+@import url(tables.css);
+@import url(homepage.css);
+@import url(gallery.css);
+@import url(portfolio.css);
+@import url(featured_slide.css);
+
+body{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#979797;
+	background-color:#06213F;
+	}
+
+img{margin:0; padding:0; border:none;}
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{list-style-type:none; margin:0; padding:0;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:inline-block;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none; color:#55ABDA; background-color:#F9F9F9;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #DEDACB; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{
+	position:relative;
+	margin:0 auto 20px;
+	width:960px;
+	text-align:left;
+	}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+	margin:0 0 15px 0;
+	padding:0;
+	font-size:16px;
+	font-weight:normal;
+	font-style:normal;
+	line-height:normal;
+	}
+
+.row1{color:#999999; background-color:#06213F;}
+.row1 a{color:#FCFCFC; background-color:#06213F;}
+.row2, .row3, .row4{color:#979797; background-color:#F9F9F9;}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{
+	display:block;
+	width:960px;
+	}
+
+.rnd{
+	display:block;
+	width:960px;
+	padding:12px 0 0 0;
+	background:url("../images/round_top.gif") top left no-repeat;
+	}
+
+/* ----------------------------------------------Header-------------------------------------*/
+
+#header{padding:25px 0 0 0;}
+
+#header h1, #header p, #header ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:normal;
+	}
+
+#header h1{font-size:36px; font-variant:small-caps; font-style:normal;}
+
+#header .fl_right{
+	display:block;
+	width:360px;
+	}
+
+#header .fl_right ul{
+	margin-bottom:10px;
+	font-size:11px;
+	}
+
+#header .fl_right li{
+	display:inline;
+	margin:0 4px 0 0;
+	padding:0 6px 0 0;
+	border-right:1px solid #FCFCFC;
+	}
+
+#header .fl_right li.last{
+	margin:0;
+	padding:0;
+	border:none;
+	}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+#container{
+	width:920px;
+	padding:20px;
+	line-height:1.6em;
+	background:url("../images/round_bot.gif") bottom left no-repeat;
+	}
+
+#container a{
+	color:#55ABDA;
+	background-color:#F9F9F9;
+	}
+
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{
+	padding-bottom:8px;
+	border-bottom:1px solid #DEDACB;
+	}
+
+#container .readmore{
+	display:block;
+	width:100%;
+	text-align:right;
+	line-height:normal;
+	}
+
+#content{
+	display:block;
+	float:left;
+	width:600px;
+	}
+
+/* ------Comments-----*/
+
+#comments{margin-bottom:40px;}
+
+#comments .commentlist{margin:0; padding:0;}
+
+#comments .commentlist ul{margin:0; padding:0; list-style:none;}
+
+#comments .commentlist li.comment_odd, #comments .commentlist li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+
+#comments .commentlist li.comment_odd{color:#666666; background-color:#F7F7F7;}
+#comments .commentlist li.comment_odd a{color:#55ABDA; background-color:#F7F7F7;}
+
+#comments .commentlist li.comment_even{color:#666666; background-color:#E8E8E8;}
+#comments .commentlist li.comment_even a{color:#55ABDA; background-color:#E8E8E8;}
+
+#comments .commentlist .author .name{font-weight:bold;}
+#comments .commentlist .submitdate{font-size:smaller;}
+
+#comments .commentlist p{margin:10px 5px 10px 0; padding:0; font-weight:normal; text-transform:none;}
+
+#comments .commentlist li .avatar{float:right; border:1px solid #EEEEEE; margin:0 0 0 10px;}
+
+/* ----------------------------------------------Column-------------------------------------*/
+
+#column{
+	display:block;
+	float:right;
+	width:300px;
+	}
+
+#column .holder, #column #featured{
+	display:block;
+	width:300px;
+	margin-bottom:30px;
+	}
+
+#column .holder h2.title{
+	display:block;
+	width:100%;
+	height:65px;
+	margin:0;
+	padding:15px 0 0 0;
+	font-size:20px;
+	text-transform:none;
+	line-height:normal;
+	border-bottom:1px dotted #999999;
+	}
+
+#column .holder h2.title img{
+	float:left;
+	margin:-15px 8px 0 0;
+	padding:5px;
+	border:1px solid #999999;
+	}
+
+#column div.imgholder{
+	display:block;
+	width:290px;
+	margin:0 0 10px 0;
+	}
+
+#column .holder p.readmore{
+	display:block;
+	width:100%;
+	font-weight:bold;
+	text-align:right;
+	line-height:normal;
+	}
+
+/* Featured Block */
+
+#column #featured ul, #column #featured h2, #column #featured p{
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#666666;
+	background-color:#F7F7F7;
+	}
+
+#column #featured a{
+	color:#55ABDA;
+	background-color:#F7F7F7;
+	}
+
+#column #featured li{
+	display:block;
+	width:250px;
+	margin:0;
+	padding:20px 25px;
+	color:#666666;
+	background-color:#F7F7F7;
+	}
+
+#column #featured li p.imgholder{
+	display:block;
+	width:240px;
+	height:90px;
+	margin:20px 0 15px 0;
+	}
+
+#column #featured li h2{
+	margin:0;
+	padding:0 0 8px 0;
+	font-weight:normal;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height:normal;
+	border-bottom:1px dotted #999999;
+	}
+
+#container #column .readmore a{
+	display:block;
+	width:100%;
+	margin-top:15px;
+	height:auto;
+	padding-left:0;
+	font-weight:bold;
+	text-align:right;
+	line-height:normal;
+	background:none;
+	}
+
+#column .latestnews{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#column .latestnews li{
+	display:block;
+	width:100%;
+	height:99px;
+	margin:0 0 11px 0;
+	padding:0 0 21px 0;
+	border-bottom:1px dotted #C7C5C8;
+	overflow:hidden;
+	}
+
+#column .latestnews li.last, #column .last{
+	margin-bottom:0;
+	}
+
+#column .latestnews p{
+	display:inline;
+	}
+
+#column .latestnews img{
+	float:left;
+	margin:0 10px 0 0;
+	padding:4px;
+	border:1px solid #C7C5C8;
+	clear:left;
+	}
+
+/* ----------------------------------------------Footer-------------------------------------*/
+
+#footer{
+	width:920px;
+	padding:5px 20px 15px 20px;
+	background:url("../images/round_bot.gif") bottom left no-repeat;
+	}
+
+#footer .fl_left img{margin-bottom:30px;}
+
+#footer address{
+	display:inline;
+	float:left;
+	margin-left:40px;
+	text-transform:none;
+	font-style:normal;
+	line-height:1.8em;
+	}
+
+#footer .fl_right{
+	display:block;
+	width:400px;
+	}
+
+#footer .fl_right p{margin:0 0 15px 0; padding:0; line-height:normal;}
+
+#footer .fl_right #social{display:block; width:100%; margin:0 0 15px 0; padding:0; line-height:normal;}
+#footer .fl_right #social ul{margin:0; padding:0; list-style:none;}
+#footer .fl_right #social li{float:left; /* Only For IE */}
+#footer .fl_right #social a{display:block; float:left; width:49px; height:49px; margin-right:20px; overflow:hidden; text-indent:-4000em; background:url("../images/social-sprite.gif") no-repeat;}
+#footer .fl_right #social li.last a{margin-right:0;}
+
+#footer .last{margin:0;}
+
+/* ----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{
+	padding:0 12px;
+	}
+
+#copyright p{
+	margin:0;
+	padding:0;
+	}
+
+#copyright, #copyright a{
+	color:#55ABDA;
+	background-color:#06213F;
+	}

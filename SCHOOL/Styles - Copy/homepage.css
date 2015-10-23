@@ -1,0 +1,193 @@
+/*
+Template Name: Academic Education
+File: Homepage CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#homepage{
+	position:relative;
+	margin:0 auto 30px;
+	display:block;
+	width:100%;
+	}
+
+/* ----------------------------------------------Left Column-------------------------------------*/
+
+#homepage #left_column{
+	display:block;
+	float:left;
+	width:230px;
+	}
+
+#homepage #left_column .imgholder{
+	margin-bottom:20px;
+	}
+
+/* ----------------------------------------------Latest News-------------------------------------*/
+
+#homepage #latestnews{
+	display:block;
+	float:left;
+	width:420px;
+	margin:0 0 0 20px;
+	}
+
+#homepage #latestnews ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#homepage #latestnews li{
+	display:block;
+	width:100%;
+	margin:0 0 20px 0;
+	padding:0 0 20px 0;
+	list-style:none;
+	border-bottom:1px solid #DEDACB;
+	}
+
+#latestnews .latestnews{
+	display:block;
+	float:right;
+	width:270px;
+	margin:0;
+	padding:0;
+	}
+
+#latestnews .latestnews p{
+	margin:0 0 8px 0;
+	padding:0;
+	}
+
+#latestnews .imgl{
+	margin:0;
+	}
+
+#latestnews p.readmore{
+	display:block;
+	width:100%;
+	clear:both;
+	margin:0;
+	padding:0;
+	text-align:right;
+	}
+
+/* ----------------------------------------------Right Column-------------------------------------*/
+
+#homepage #right_column{
+	display:block;
+	float:left;
+	width:230px;
+	margin:0 0 0 20px;
+	}
+
+#homepage #right_column .holder{
+	display:block;
+	width:100%;
+	margin-bottom:20px;
+	}
+
+#homepage #right_column .apply a{
+	display:block;
+	width:230px;
+	height:100px;
+	margin-bottom:20px;
+	color:#666666;
+	background-color:#DEDACB;
+	font-size:14px;
+	text-transform:uppercase;
+	overflow:hidden;
+	}
+
+#homepage #right_column .apply a strong{
+	display:block;
+	float:right;
+	width:130px;
+	height:72px;
+	padding-top:28px;
+	text-align:center;
+	cursor:pointer; /* IE7 Doesnt render the cursor properly so this is needed */
+	}
+
+#homepage #right_column .apply img{
+	display:block;
+	float:left;
+	width:100px;
+	height:100px;
+	}
+
+/* ---------------------------------------------Twitter-------------------------------------*/
+
+#twitter{
+	display:block;
+	width:900px;
+	height:86px;
+	margin:0 0 30px 0;
+	padding:10px;
+	clear:both;
+	background:url("../images/twitter_bg.gif") top left no-repeat;
+	}
+
+#container #twitter a{
+	color:#2DCDFF;
+	background-color:#00112B;
+	}
+
+#twitter .fl_left{
+	display:block;
+	float:left;
+	width:94px;
+	height:61px;
+	margin:0;
+	padding:25px 10px 0 44px;
+	background:url("../images/twitter_logo.gif") 0 14px no-repeat;
+	border-right:2px solid #FFFFFF;
+	text-align:center;
+	}
+
+#twitter .fl_left a{text-transform:uppercase;}
+
+#twitter .fl_right{
+	display:block;
+	float:right;
+	width:730px;
+	height:60px;
+	margin:0;
+	padding:26px 0 0 0;
+	font-size:14px;
+	font-weight:bold;
+	line-height:1.4em;
+	color:#FFFFFF;
+	background-color:#00112B;
+	}
+
+/* ----------------------------------------------Academic link Block-------------------------------------*/
+
+#academiclinks{
+	display:block;
+	width:920px;
+	}
+
+#academiclinks .linkbox{
+	display:block;
+	float:left;
+	width:215px;
+	margin:0 20px 0 0;
+	font-size:12px;
+	}
+
+#academiclinks a{
+	}
+
+#academiclinks ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#academiclinks .last{
+	margin:0;
+	}

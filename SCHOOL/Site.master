@@ -1,0 +1,265 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    
+
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <title>Academic Education</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<!-- Homepage Specific Elements -->
+<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.tabs.setup.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--<style>
+        body {
+        margin:0px;
+        }
+        #header,#footer {
+        width:100%;
+        margin:0px;
+        }
+        #left_div {
+            width:100%;
+            
+            display:inline-block;
+            min-width:100px;
+            height:100%;
+        }
+        #right_div {
+            width:100%;
+            
+            display:inline-block;
+            margin:0px;
+        }
+        #main_wrap ul {
+            margin:0px;
+        list-style:none;
+        }
+        #nav ul {
+        margin:5px;
+         list-style:none;
+        }
+        #nav a {
+        cursor:pointer;
+        }
+        #nav li {
+        margin:5px;
+         display:inline-block;
+        }
+        #main_wrap li {
+            margin:0px;
+        display:inline-block;
+        }
+        #left_div li {
+        display:block;
+        }
+    </style>--%>
+    <style type="text/css">
+        .style1
+        {
+            font-size: large;
+        }
+        .style2
+        {
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body id="top">
+<div class="wrapper row1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1 class="style1 title" ><a href="Default.aspx">
+      ACADEMIC EDUCATION
+      </a></h1>
+      <p></p>
+    </div>
+    <div class="fl_right">
+      <ul>
+        <li class="style"><a href="Default.aspx">Home</a></li>
+           
+        <%--<li><a href="#">Contact Us</a></li>--%>
+          
+        <li class="style"><a href="Online Admission.aspx">Online Admission</a></li>
+        <li class="style"><a href="parent_login.aspx">Parent Login</a></li>
+        <li class="style"><a href="student_login.aspx">Student Login</a></li>
+        <li class="style"><a href="login.aspx">Staff Login</a></li>
+      </ul>
+      <form action="#" method="post" id="sitesearch">
+        <fieldset>
+          <strong>Search:</strong>
+          <input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+          <input type="image" src="images/search.gif" id="search" alt="Search" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper row2">
+  <div class="rnd">
+    <!-- ###### -->
+    <div id="topnav">
+      <ul>
+        <li class="active"><a href="Default.aspx">Home</a></li>
+        <li><a href="Default.aspx">About</a></li>
+        <li><a href="Default.aspx">Facilities</a></li>
+        <li><a href="Default.aspx">Principal</a></li>
+        <li><a href="Default.aspx">Achievements</a></li>
+        <li><a href="Default.aspx">Gallery</a></li>
+        <li><a href="Default.aspx">Faculty</a></li>
+        <li class="last"><a href="Default.aspx">Contact Us</a></li>
+      </ul>
+    </div>
+    <!-- ###### -->
+  </div>
+</div>
+
+
+    <!--************************-->
+
+     <%--<div id="header" style="height:150px;background-color:green;padding:20px">
+
+        <div style="text-align:center;font-size:50px;color:white;">School Management System</div>
+    </div>--
+    <div id="nav">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a href="login.aspx">Login</a></li>
+
+            <li><a>Contact Us</a></li>
+            <li><a>About</a></li>
+        </ul>
+    </div>--%>
+
+    <div class="wrapper">
+  <div id="featured_slide" class="clear">
+    <!-- ###### -->
+    <div class="overlay_left"></div>
+    <div id="featured_content">
+      <div class="featured_box" id="fc1"><img src="images/demo/slider/1.jpg" alt="" />
+        <div class="floater">
+          <h2>Nullamlacus dui ipsum</h2>
+          <p>Attincidunt vel nam a maurisus lacinia consectetus magnisl sed ac morbi. Inmaurisus habitur pretium eu et ac vest penatibus id lacus parturpis.</p>
+          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        </div>
+      </div>
+      <div class="featured_box" id="fc2"><img src="images/demo/slider/2.jpg" alt="" />
+        <div class="floater">
+          <h2>Aliquatjusto quisque nam</h2>
+          <p>Attincidunt vel nam a maurisus lacinia consectetus magnisl sed ac morbi. Inmaurisus habitur pretium eu et ac vest penatibus id lacus parturpis.</p>
+          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        </div>
+      </div>
+      <div class="featured_box" id="fc3"><img src="images/demo/slider/3.jpg" alt="" />
+        <div class="floater">
+          <h2>Aliquatjusto quisque nam</h2>
+          <p>Attincidunt vel nam a maurisus lacinia consectetus magnisl sed ac morbi. Inmaurisus habitur pretium eu et ac vest penatibus id lacus parturpis.</p>
+          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        </div>
+      </div>
+      <div class="featured_box" id="fc4"><img src="images/demo/slider/4.jpg" alt="" />
+        <div class="floater">
+          <h2>Aliquatjusto quisque nam</h2>
+          <p>Attincidunt vel nam a maurisus lacinia consectetus magnisl sed ac morbi. Inmaurisus habitur pretium eu et ac vest penatibus id lacus parturpis.</p>
+          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        </div>
+      </div>
+      <div class="featured_box" id="fc5"><img src="images/demo/slider/5.jpg" alt="" />
+        <div class="floater">
+          <h2>Dapiensociis temper donec</h2>
+          <p>Attincidunt vel nam a maurisus lacinia consectetus magnisl sed ac morbi. Inmaurisus habitur pretium eu et ac vest penatibus id lacus parturpis.</p>
+          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+    <ul id="featured_tabs">
+      <li><a href="#fc1">All About The School</a></li>
+      <li><a href="#fc2">Why You Should Study With Us</a></li>
+      <li><a href="#fc3">Education And Student Experience</a></li>
+      <li><a href="#fc4">Alumni And Its Donors</a></li>
+      <li class="last"><a href="#fc5">Latest School News &amp; Events</a></li>
+    </ul>
+    <div class="overlay_right"></div>
+    <!-- ###### -->
+  </div>
+</div>
+
+
+    <div class="wrapper row3">
+        <div class="rnd">
+        <div id="container" class="clear">
+      <!-- ####################################################################################################### -->
+      <div id="homepage" class="clear">
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+         <p>
+             &nbsp;</p>
+         <p>
+             &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+
+
+          
+          </div>
+            </div>
+            </div>
+        </div>
+
+
+    <div class="wrapper row4">
+  <div class="rnd">
+    <div id="footer" class="clear">
+      <!-- ####################################################################################################### -->
+      <div class="fl_left clear">
+        <div class="fl_left center"><img src="images/demo/worldmap.gif" alt="" /><br />
+          <a href="#">Find Us With Google Maps &raquo;</a></div>
+          <address>
+              BEELINE PUBLIC SCHOOL<br />
+              BILGRIM<br />
+              INDIA<br />
+              PIN:673456<br />
+        <br />
+              TEL:8976895640<br />
+              email:beeline@gmail.com</address>
+      </div>
+      <div class="fl_right">
+        <div id="social" class="clear">
+          <p>Stay Up to Date With Whats Happening          <ul>
+            <li><a style="background-position:0 0;" href="#">Twitter</a></li>
+            <li><a style="background-position:-72px 0;" href="#">LinkedIn</a></li>
+            <li><a style="background-position:-142px 0;" href="#">Facebook</a></li>
+            <li><a style="background-position:-212px 0;" href="#">Flickr</a></li>
+            <li><a style="background-position:-282px 0;" href="#">RSS</a></li>
+          </ul>
+        </div>
+        <div id="newsletter">
+          <form action="#" method="post">
+            <fieldset>
+              <legend>Subscribe To Our Newsletter:</legend>
+              <input type="text" value="Enter Email Here&hellip;" onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
+              <input type="text" id="subscribe" value="Submit" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <!-- ####################################################################################################### -->
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">AcademicEducation.com</a></p>
+    <p class="fl_right"></p>
+  </div>
+</div>
+</body>
+</html>

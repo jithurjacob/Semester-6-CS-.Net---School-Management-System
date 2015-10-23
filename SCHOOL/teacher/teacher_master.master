@@ -1,0 +1,122 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="teacher_master.master.cs" Inherits="teacher_master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <title>Academic Education</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="../styles/layout.css" type="text/css" />
+<!-- Homepage Specific Elements -->
+<script type="text/javascript" src="../scripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="../scripts/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="../scripts/jquery.tabs.setup.js"></script>
+    <link rel="stylesheet" href="../styles/layout.css" type="text/css" />
+   <link rel="stylesheet" href="../styles/3_column.css" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   <%-- <style>
+        body {
+            margin: 0px;
+        }
+
+        #header, #footer {
+            width: 100%;
+            margin: 0px;
+        }
+
+        #left_div {
+            width: 100%;
+            display: inline-block;
+            min-width: 100px;
+            height: 100%;
+        }
+
+        #right_div {
+            width: 100%;
+            display: inline-block;
+            margin: 0px;
+        }
+
+        #main_wrap ul {
+            margin: 0px;
+            list-style: none;
+        }
+
+        #main_wrap li {
+            margin: 0px;
+            display: inline-block;
+        }
+
+        #left_div li {
+            display: block;
+        }
+    </style>--%>
+</head>
+<body>
+     <div class="wrapper row1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="index.html">Academic Education</a></h1>
+      <p></p>
+    </div>
+    </div>
+</div>
+   <%-- <div id="header" style="height:150px;background-color:green;padding:20px">
+
+        <div style="text-align:center;font-size:50px;color:white;">School Management System</div>
+    </div>--%>
+    <div class="wrapper row3">
+        <div class="rnd">
+        <div id="container" class="clear">
+        
+    <%--<div id="main_wrap" style="height:100%;width:100%">
+        <ul>
+            <li style="width:20%;margin-top:50px;">
+        <div id="left_div">--%>
+     <div id="left_column">
+        <div class="holder">
+          <h2 class="title" style="float:none">Quick Links</h2>
+            
+          <ul class="nostart">
+           
+                <%--<li><a href="ADD CLASS DIV.aspx">Add class</a></li>--%>
+                <li><a href="teacherhome.aspx">Home</a></li>
+                <li><a href="teacherhome.aspx">Change Password</a></li>
+                 <li><a href="GVEASSIGNMNT.aspx">Add assignment</a></li>
+                 <li><a href="add marks.aspx">Add marks</a></li>
+                <li><a href="add attend.aspx">Add attendance</a></li>
+                <li><a href="view submns.aspx">View submissions</a></li>
+                <li><a href="view assgns.aspx">View assignments</a></li>
+                <li><a href="view marks.aspx">View marks</a></li>
+                <li><a href="view attend.aspx">View attendance</a></li>
+                 <li><a href="view time table.aspx">View time table</a></li>
+                 
+                <li><a href="../logout.aspx">Logout</a></li>
+            </ul>
+        </div>
+               </div>
+                <%--</li>--%>
+           <%-- <li style="width:75%">--%>
+   <%-- <div id="right_div">--%>
+            <div id="content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+     </div>
+            </div>
+            </div>
+            </div>
+        
+     <%--<div id="footer" style="height:150px;background-color:green"></div>--%>
+
+    <div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">AcademicEducation.com</a></p>
+    <p class="fl_right"></p>
+  </div>
+</div>
+</body>
+</html>

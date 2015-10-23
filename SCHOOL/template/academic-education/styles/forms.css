@@ -1,0 +1,126 @@
+/*
+Template Name: Academic Education
+File: Forms CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+form, fieldset, legend{
+	margin:0;
+	padding:0;
+	border:none;
+	}
+
+legend{
+	display:none;
+	}
+
+input, textarea, select{
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+
+/* ----------------------------------------------Search Form-------------------------------------*/
+
+#sitesearch{
+	display:block;
+	float:right;
+	}
+
+#sitesearch strong{
+	display:block;
+	float:left;
+	margin:0;
+	padding:7px 15px 0 0;
+	text-transform:uppercase;
+	color:#C6CDD6;
+	background-color:#06213F;
+	}
+
+#sitesearch input{
+	display:block;
+	float:left;
+	width:230px;
+	height:25px;
+	margin:0 15px 0 0;
+	padding:0 5px;
+	color:#979797;
+	background:url("../images/form_input_long.gif") 0 0 no-repeat #F9F9F9;
+	border:none;
+	}
+
+#sitesearch input#search{
+	width:23px;
+	height:23px;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	background:none;
+	float:left;
+	}
+
+/* ----------------------------------------------Forms in Content Area-------------------------------------*/
+
+#container #respond{
+	display:block;
+	width:100%;
+	}
+
+#container #respond input{
+	width:170px;
+	padding:2px;
+	border:1px solid #CCCCCC;
+	margin:5px 5px 0 0;
+	}
+
+#container #respond textarea{
+	width:98%;
+	border:1px solid #CCCCCC;
+	padding:2px;
+	overflow:auto;
+	}
+
+#container #respond p{
+	margin:5px 0;
+	}
+
+#container #respond #submit, #container #respond #reset{
+	margin:0;
+	padding:5px;
+	color:#666666;
+	background-color:#F7F7F7;
+	border:1px solid #CCCCCC;
+	cursor:pointer;
+	}
+
+/* ----------------------------------------------Newsletter-------------------------------------*/
+
+#footer legend{
+	display:block;
+	margin-bottom:15px;
+	}
+
+#footer input{
+	display:block;
+	float:left;
+	width:260px;
+	height:20px;
+	margin:0;
+	padding:5px 10px;
+	color:#666666;
+	background-color:#ECECEC;
+	border:none;
+	}
+
+#footer input#subscribe{
+	width:100px;
+	height:30px;
+	float:left;
+	margin:0 0 0 8px;
+	padding:0;
+	cursor:pointer;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	}
